@@ -20,5 +20,19 @@
         <members>OpportunityTrigger</members>
         <name>ApexTrigger</name>
     </types>
+    <types>
+        <members>Opportunity_Calculator_Based_On_Role__mdt</members>
+        <members>System__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Opportunity_Calculator_Based_On_Role.CTO</members>
+        <members>Opportunity_Calculator_Based_On_Role.Manager</members>
+        <members>Opportunity_Calculator_Based_On_Role.Sales_Associate</members>
+        <name>CustomMetadata</name>
+    </types>
     <version>58.0</version>
 </Package>

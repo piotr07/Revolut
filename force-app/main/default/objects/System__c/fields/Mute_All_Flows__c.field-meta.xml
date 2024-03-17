@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mute_All_Flows__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When the value is marked as true, the record-triggered flows are not fired.</description>
+    <externalId>false</externalId>
+    <label>Mute All Flows</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
