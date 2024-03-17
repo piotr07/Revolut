@@ -1,4 +1,4 @@
-# Attention!
+# Attention!!!
 I know that in [OppCalculator_Service](/force-app/main/default/classes/OppCalculator_Service.cls) calculating max discount would
 be calculated in another way (for example via record-triggered flow) but I prepared that solution to demonstrate trigger
 best practices, using repository pattern and single responsibility principle.
