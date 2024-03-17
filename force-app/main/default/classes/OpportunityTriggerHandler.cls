@@ -11,10 +11,10 @@ public with sharing class OpportunityTriggerHandler {
      * Handles the before insert trigger event.
      * Calculates opportunities using the OppCalculator_Service class.
      *
-     * @param idToOpportunityNew A map containing the Ids of new opportunities and their corresponding Opportunity records.
+     * @param opportunityNew A list containing new Opportunities records.
      */
-    public static void handleBeforeInsert(Map<Id, Opportunity> idToOpportunityNew) {
-        OppCalculator_Service.calculateOpps(idToOpportunityNew.values());
+    public static void handleBeforeInsert(List<Opportunity> opportunityNew) {
+        OppCalculator_Service.calculateOpps(opportunityNew);
     }
 
     /**
