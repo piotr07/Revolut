@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>OppCalcilator_Interface</members>
+        <members>OppCalculatorCTO_Service</members>
+        <members>OppCalculatorManager_Service</members>
+        <members>OppCalculatorSalesAssoc_Service</members>
+        <members>OppCalculator_Interface</members>
+        <members>OppCalculator_Service</members>
+        <members>OpportunityTriggerHandler</members>
+        <members>UserRepository</members>
+        <members>UserRepositoryImpl</members>
+        <members>User_Service</members>
+        <members>UserRepositoryImplMock</members>
+        <members>User_Service_TEST</members>
+        <members>TestingUtils</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>OpportunityTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <version>58.0</version>
+</Package>
