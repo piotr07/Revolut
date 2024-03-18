@@ -20,7 +20,7 @@ private class User_Service_TEST {
         User fetchedUser = userService.getUserById(TestingUtils.generateId(User.SObjectType));
 
         // Then
-        System.assertEquals(0, Limits.getQueries(), 'No query should be used for testing UserRepositoryImplMock');
-        System.assertEquals('mock@example.com', fetchedUser.Email, 'Emails should be the same');
+        Assert.areEqual(0, Limits.getQueries(), 'No query should be used for testing UserRepositoryImplMock');
+        Assert.areEqual('mock@example.com', fetchedUser.Email, 'Emails should be the same');
     }
 }
